@@ -1,0 +1,25 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Générateur de mot de passe</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Générateur de mot de passe</h1>
+    
+    <input type="text" id="password" readonly placeholder="Cliquez sur 'Générer'">
+    
+    <div class="buttons">
+      <button onclick="genererMotDePasse()">Générer</button>
+      <button onclick="copierMotDePasse()">Copier</button>
+    </div>
+
+    <p id="message"></p> <!-- Zone pour le message en bas -->
+  </div>
+
+  <script src="Script.js"></script>
+</body>
+</html>
